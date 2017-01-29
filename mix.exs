@@ -20,8 +20,6 @@ defmodule OandaApi.Mixfile do
   defp deps do
     [ {:httpoison, "~> 0.9"}, {:poison, "~> 3.0"} ]
   end
-end
-
 
   defp description do
     """
@@ -38,3 +36,4 @@ end
      links: %{"GitHub" => "https://github.com/danieledangeli/oanda_elixir",
               "Docs" => "https://github.com/danieledangeli/oanda_elixir"}]
   end
+end
