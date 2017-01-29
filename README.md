@@ -21,5 +21,16 @@ If [available in Hex](https://hex.pm/docs/publish), the package can be installed
       [applications: [:oanda_api]]
     end
     ```
+## Configuration
+
+  1. Add `oanda_api` to your config and define OANDA the base url and token.
+
+    ```elixir
+    use Mix.Config
+        config :oanda_api,
+             token: "test_token",
+             base_url: "https://api-fxtrade.oanda.com"
+    ```
+
 
 =======
