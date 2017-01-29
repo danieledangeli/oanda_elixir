@@ -18,7 +18,7 @@ defmodule OandaApi.Mixfile do
 
 
   defp deps do
-    [ {:httpoison, "~> 0.9"}, {:poison, "~> 3.0"} ]
+    [ {:httpoison, "~> 0.9"}, {:poison, "~> 3.0"}, {:ex_doc, ">= 0.0.0", only: :dev} ]
   end
 
   defp description do
@@ -29,8 +29,8 @@ defmodule OandaApi.Mixfile do
 
   defp package do
     [# These are the default files included in the package
-     name: :postgrex,
-     files: ["lib", "mix.exs", "README*", "readme*", "LICENSE*", "license*"],
+     name: :oanda_api,
+     files: ["lib", "mix.exs", "README*", "LICENSE*"],
      maintainers: ["Daniele D'Angeli"],
      licenses: ["Apache 2.0"],
      links: %{"GitHub" => "https://github.com/danieledangeli/oanda_elixir",
